@@ -1,0 +1,11 @@
+Pon aquí las fotos con estos nombres exactos (JPG, idealmente < 400 KB cada una).
+Mientras falte alguna, la web muestra un recuadro con el nombre de la foto.
+
+cabecera.jpg            ✔ Portada (foto 3, el atardecer). El texto va arriba: usar fotos con cielo arriba.
+pareja.jpg              ✔ Bienvenida (foto 2, el Coliseo).
+basilica-exterior.jpg   ✔ Basílica exterior.
+basilica-interior.jpg   ✔ Basílica interior.
+cortijo-1.jpg … cortijo-6.jpg   ✔ Cortijo El Brujuelo. Verticales (4:5).
+hotel-europa-1.jpg … -3.jpg       ✔ Hotel Europa Jaén. Horizontal (16:10).
+hotel-condestable-1.jpg … -3.jpg  ✔ Hotel Condestable Iranzo. Horizontal (16:10).
+cierre.jpg              ✔ Cierre (foto 1, el barco).

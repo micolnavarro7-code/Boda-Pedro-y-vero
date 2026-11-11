@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verónica & Pedro · 29.05.2027</title>
+<meta name="description" content="Verónica y Pedro se casan el 29 de mayo de 2027 en Jaén. Toda la información de la boda.">
+<meta name="theme-color" content="#3F4229">
+<meta property="og:title" content="Verónica & Pedro · Nos casamos">
+<meta property="og:description" content="29 · 05 · 2027 · Jaén">
+<meta property="og:image" content="img/cabecera.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+  --olivo:#6B7045;
+  --olivo-osc:#3F4229;
+  --beige:#E8DFCF;
+  --crema:#F7F3EC;
+  --oro:#B8A47E;
+  --linea:rgba(63,66,41,.18);
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Jost','Montserrat',system-ui,sans-serif;
+  --radio:10px;
+  --ancho:34rem;
+  --menu:62px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--crema);color:var(--olivo-osc);font-family:var(--sans);font-weight:300;font-size:1.0625rem;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+figure{margin:0}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:300;line-height:1.1;margin:0}
+p{margin:0 0 1em}
+button,input,select,textarea{font:inherit;color:inherit}
+
+/* ---------- Utilidades ---------- */
+.wrap{max-width:var(--ancho);margin:0 auto;padding:0 22px}
+.wide{max-width:64rem;margin:0 auto;padding:0 22px}
+section{padding:96px 0;position:relative}
+.center{text-align:center}
+.kicker{display:block;font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;color:var(--olivo);font-weight:400;margin-bottom:14px}
+.titulo{font-size:clamp(2.4rem,9vw,3.4rem);margin-bottom:22px}
+.titulo em{font-style:italic;color:var(--olivo)}
+.lead{font-size:1.06rem;max-width:30rem;margin-left:auto;margin-right:auto}
+.small{font-size:.88rem;opacity:.8}
+.pend{display:inline-block;font-family:var(--sans);font-style:normal;font-size:.72em;letter-spacing:.04em;line-height:1.3;padding:2px 8px;border:1px dashed var(--oro);border-radius:6px;color:#8a7a55;background:rgba(184,164,126,.08);vertical-align:middle}
+.sep{display:block;width:150px;height:30px;margin:0 auto 26px;color:var(--oro)}
+.sep.big{width:200px;height:40px}
+.bg-beige{background:var(--beige)}
+
+/* ---------- Botones ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 26px;border:1px solid var(--olivo);border-radius:var(--radio);background:transparent;color:var(--olivo-osc);font-family:var(--sans);font-size:.78rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background .3s,color .3s,border-color .3s}
+.btn:hover,.btn:focus-visible{background:var(--olivo);color:var(--crema)}
+.btn svg{width:16px;height:16px;flex:none}
+.btn.solid{background:var(--olivo);color:var(--crema)}
+.btn.solid:hover{background:var(--olivo-osc);border-color:var(--olivo-osc)}
+.btn.light{border-color:rgba(247,243,236,.7);color:var(--crema)}
+.btn.light:hover{background:var(--crema);color:var(--olivo-osc)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+:focus-visible{outline:2px solid var(--oro);outline-offset:3px}
+
+/* ---------- Animación de entrada ---------- */
+.js .reveal{opacity:0;transform:translateY(26px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
+.js .reveal.d1{transition-delay:.12s}.js .reveal.d2{transition-delay:.24s}.js .reveal.d3{transition-delay:.36s}
+
+/* ---------- Fotos con marcador ---------- */
+.ph{position:relative;overflow:hidden;background:var(--beige);border-radius:var(--radio)}
+.ph::before{content:attr(data-label);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:16px;text-align:center;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--olivo);opacity:.7;border:1px dashed var(--oro);border-radius:inherit}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bg-beige .ph{background:#ded3bf}
+
+/* ---------- Menú ---------- */
+.menu{position:fixed;top:0;left:0;right:0;z-index:40;height:var(--menu);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 16px;color:var(--crema);transition:background .4s,box-shadow .4s}
+.menu.solid{background:rgba(63,66,41,.95);box-shadow:0 1px 0 rgba(184,164,126,.35)}
+.menu-logo{font-family:var(--serif);font-size:1.6rem;line-height:1;color:#E6D7B4;text-decoration:none;white-space:nowrap}
+.menu-logo span{font-style:italic;font-size:.62em;margin:0 .12em;vertical-align:.12em;color:var(--crema)}
+.menu-links{display:flex;align-items:center;gap:clamp(14px,4vw,30px)}
+.menu-links a{font-size:.66rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;padding:12px 0;white-space:nowrap}
+.menu-links a.cta{border:1px solid rgba(247,243,236,.7);border-radius:var(--radio);padding:9px 14px;transition:background .3s,color .3s}
+.menu-links a.cta:hover,.menu-links a.cta:focus-visible{background:var(--crema);color:var(--olivo-osc)}
+.menu:not(.solid) a{text-shadow:0 1px 10px rgba(0,0,0,.35)}
+@media(max-width:519px){.sm-hide{display:none}}
+@media(max-width:359px){.menu-logo{display:none}.menu{justify-content:center}}
+@media(min-width:760px){.menu{padding:0 32px}}
+
+/* ---------- 1. Cabecera ---------- */
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;color:var(--crema);padding:calc(var(--menu) + max(3vh,14px)) 22px 80px;
+  background:linear-gradient(180deg,rgba(30,32,18,.62) 0%,rgba(30,32,18,.32) 26%,rgba(30,32,18,0) 46%,rgba(30,32,18,0) 78%,rgba(30,32,18,.4) 100%),url('img/cabecera.jpg') 46% 52%/cover no-repeat,radial-gradient(ellipse at 50% 30%,#7a7f52,#3F4229 75%)}
+.hero .sep{color:var(--oro);margin-bottom:14px}
+.hero h1{font-size:clamp(2.5rem,10.5vw,5.4rem);white-space:nowrap;font-weight:300;letter-spacing:-.01em}
+.hero h1 .amp{font-style:italic;color:#E6D7B4;font-size:.8em}
+.hero .nos{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,5.5vw,2rem);margin:10px 0 4px}
+.hero .fecha{font-size:.8rem;letter-spacing:.4em;text-transform:uppercase}
+.bajar{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--crema);text-decoration:none;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;opacity:.85}
+.bajar svg{width:22px;height:22px;animation:bote 2.2s ease-in-out infinite}
+@keyframes bote{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.hero-in>*{opacity:0;transform:translateY(16px);animation:sube 1.4s cubic-bezier(.2,.7,.2,1) forwards}
+.hero-in>*:nth-child(2){animation-delay:.25s}.hero-in>*:nth-child(3){animation-delay:.5s}.hero-in>*:nth-child(4){animation-delay:.75s}
+@keyframes sube{to{opacity:1;transform:none}}
+
+/* ---------- 2. Contador ---------- */
+.contador{display:grid;grid-template-columns:repeat(4,1fr);margin:8px auto 26px;max-width:26rem}
+.contador div{padding:6px 2px;border-left:1px solid var(--linea)}
+.contador div:first-child{border-left:0}
+.contador b{display:block;font-family:var(--serif);font-weight:300;font-size:clamp(2.4rem,11vw,3.4rem);line-height:1;color:var(--olivo-osc);font-variant-numeric:tabular-nums}
+.contador span{font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;color:var(--olivo)}
+.frase{font-family:var(--serif);font-style:italic;font-size:1.3rem;margin-bottom:30px}
+
+/* ---------- 3. Bienvenida ---------- */
+.bienvenida .ph{width:min(240px,62vw);aspect-ratio:4/5;margin:0 auto 36px;border-radius:200px 200px var(--radio) var(--radio)}
+.firma{font-family:var(--serif);font-style:italic;font-size:1.6rem;color:var(--olivo);margin-top:8px}
+
+/* ---------- 5/6. Lugares ---------- */
+.lugar-fotos{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;margin:0 0 34px}
+.lugar-fotos .ph{aspect-ratio:3/4}
+.lugar-fotos .ph:first-child{border-radius:160px 160px var(--radio) var(--radio)}
+.lugar-fotos .ph:last-child{aspect-ratio:auto}
+.dato{display:flex;flex-direction:column;align-items:center;gap:2px;margin-bottom:22px}
+.dato .hora{font-family:var(--serif);font-size:2.6rem;line-height:1}
+.dato .dir{font-size:.98rem}
+.nota{font-family:var(--serif);font-style:italic;font-size:1.15rem;margin:0 0 28px}
+.galeria{position:relative;display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 22px 6px;margin:0 -22px 14px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.galeria::-webkit-scrollbar{display:none}
+.galeria .ph{flex:0 0 82%;aspect-ratio:4/5;scroll-snap-align:center}
+.puntos{display:flex;justify-content:center;gap:8px;margin-bottom:34px}
+.puntos button{width:7px;height:7px;padding:0;border-radius:50%;border:1px solid var(--olivo);background:transparent;cursor:pointer;transition:background .3s,transform .3s}
+.puntos button.on{background:var(--olivo);transform:scale(1.2)}
+
+/* ---------- 7. Plan del día ---------- */
+.plan{list-style:none;margin:40px auto 0;padding:0;max-width:24rem;position:relative}
+.plan::before{content:"";position:absolute;left:27px;top:28px;bottom:28px;width:1px;background:var(--oro)}
+.plan li{display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:start;padding:0 0 34px;text-align:left}
+.plan li:last-child{padding-bottom:0}
+.plan .ico{width:56px;height:56px;border-radius:50%;border:1px solid var(--oro);background:var(--crema);display:grid;place-items:center;color:var(--olivo);position:relative}
+.plan .ico svg{width:24px;height:24px}
+.plan .h{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--olivo);display:block;margin-top:4px}
+.plan h3{font-size:1.65rem;margin:2px 0 4px}
+.plan p{font-size:.95rem;margin:0}
+
+/* ---------- 8. Dress code ---------- */
+.aviso{border:1px solid var(--oro);border-radius:var(--radio);padding:22px 20px;margin:28px 0;position:relative}
+.aviso svg{width:30px;height:30px;color:var(--oro);margin:0 auto 8px}
+.aviso p{margin:0;font-family:var(--serif);font-size:1.25rem;font-style:italic;line-height:1.4}
+.colores{display:flex;justify-content:center;flex-wrap:wrap;gap:14px 10px;margin:18px 0 10px}
+.colores div{display:flex;flex-direction:column;align-items:center;gap:6px;width:62px;font-size:.66rem;letter-spacing:.06em;line-height:1.2}
+.colores i{width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(63,66,41,.12)}
+.colores i.prohibido{position:relative;box-shadow:inset 0 0 0 1px rgba(63,66,41,.3)}
+.colores i.prohibido::after{content:"";position:absolute;left:50%;top:-4px;bottom:-4px;width:1.5px;background:#A3472F;transform:translateX(-50%) rotate(45deg)}
+
+/* ---------- Formularios ---------- */
+.form{text-align:left;margin-top:32px}
+.campo{margin-bottom:22px}
+.campo>label,.campo legend{display:block;font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--olivo);margin-bottom:6px;padding:0}
+fieldset.campo{border:0;margin:0 0 22px;padding:0;min-width:0}
+.input{width:100%;border:0;border-bottom:1px solid var(--linea);background:transparent;padding:10px 2px;font-size:1rem;border-radius:0;transition:border-color .3s;-webkit-appearance:none;appearance:none}
+.input:focus{outline:0;border-bottom-color:var(--olivo)}
+textarea.input{min-height:96px;resize:vertical;border:1px solid var(--linea);border-radius:var(--radio);padding:12px}
+textarea.input:focus{border-color:var(--olivo)}
+select.input{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%236B7045'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 4px center;padding-right:24px}
+.opciones{display:flex;flex-wrap:wrap;gap:8px}
+.opcion{position:relative}
+.opcion input{position:absolute;opacity:0;pointer-events:none}
+.opcion span{display:inline-flex;align-items:center;min-height:42px;padding:8px 16px;border:1px solid var(--linea);border-radius:var(--radio);font-size:.92rem;cursor:pointer;transition:all .25s;line-height:1.3}
+.opcion input:checked+span{border-color:var(--olivo);background:var(--olivo);color:var(--crema)}
+.opcion input:focus-visible+span{outline:2px solid var(--oro);outline-offset:2px}
+.opciones.col{flex-direction:column}
+.opciones.col .opcion span{width:100%}
+.dos{display:grid;grid-template-columns:1fr;gap:0 18px}
+@media(min-width:520px){.dos{grid-template-columns:1fr 1fr}}
+.ok{display:none;text-align:center;padding:28px 18px;border:1px solid var(--oro);border-radius:var(--radio);margin-top:24px}
+.ok.show{display:block;animation:sube .8s forwards}
+.ok svg{width:34px;height:34px;color:var(--oro);margin:0 auto 10px}
+.ok h3{font-size:1.9rem;margin-bottom:8px}
+.ok p{margin:0}
+.hp{position:absolute;left:-9999px}
+
+/* ---------- 9. Playlist (destacada) ---------- */
+.playlist{background:var(--olivo);color:var(--crema)}
+.playlist .kicker,.playlist .campo>label,.playlist .campo legend{color:var(--beige)}
+.playlist .titulo em{color:var(--beige)}
+.playlist .sep{color:var(--oro)}
+.playlist .btn{border-color:var(--crema);color:var(--crema)}
+.playlist .btn.solid{background:var(--crema);color:var(--olivo-osc)}
+.playlist .btn.solid:hover{background:var(--beige)}
+.playlist .btn:hover{background:var(--crema);color:var(--olivo-osc)}
+.playlist .input{border-bottom-color:rgba(247,243,236,.35)}
+.playlist .input:focus{border-bottom-color:var(--crema)}
+.playlist .input::placeholder{color:rgba(247,243,236,.55)}
+.playlist .opcion span{border-color:rgba(247,243,236,.35)}
+.playlist .opcion input:checked+span{background:var(--crema);border-color:var(--crema);color:var(--olivo-osc)}
+.vinilo{width:64px;height:64px;margin:0 auto 18px;color:var(--oro)}
+.sub{font-family:var(--serif);font-size:1.6rem;margin:46px 0 4px;text-align:center}
+.playlist .sub{border-top:1px solid rgba(247,243,236,.2);padding-top:40px}
+
+/* ---------- 10. Alojamiento ---------- */
+.hoteles{display:grid;gap:26px;margin-top:36px}
+@media(min-width:760px){.hoteles{grid-template-columns:1fr 1fr}}
+.hotel{background:var(--crema);border-radius:var(--radio);overflow:hidden;border:1px solid rgba(184,164,126,.45);text-align:left;display:flex;flex-direction:column}
+.hotel .ph{aspect-ratio:16/10;border-radius:0}
+.hotel .ph::before{border:0}
+.hotel-fotos{position:relative}
+.carrusel{position:relative;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.carrusel::-webkit-scrollbar{display:none}
+.carrusel .ph{flex:0 0 100%;scroll-snap-align:start}
+.puntos.sobre{position:absolute;left:0;right:0;bottom:12px;margin:0;filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
+.puntos.sobre button{border-color:var(--crema)}
+.puntos.sobre button.on{background:var(--crema)}
+.hotel .cuerpo{padding:22px 20px 24px;display:flex;flex-direction:column;flex:1}
+.hotel h3{font-size:1.85rem;margin-bottom:10px}
+.codigo{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px dashed var(--oro);border-radius:var(--radio);padding:10px 12px 10px 14px;margin:6px 0 12px}
+.codigo small{display:block;font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--olivo)}
+.codigo b{font-weight:500;letter-spacing:.08em;font-size:1rem}
+.copiar{border:0;background:transparent;color:var(--olivo);cursor:pointer;padding:8px;border-radius:8px;display:grid;place-items:center;flex:none}
+.copiar svg{width:18px;height:18px}
+.copiar:hover{background:var(--beige)}
+.hotel p{font-size:.94rem}
+.hotel .btn{margin-top:auto;width:100%}
+details.precios{margin:0 0 18px;border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+details.precios summary{cursor:pointer;list-style:none;padding:12px 0;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--olivo);display:flex;justify-content:space-between;align-items:center}
+details.precios summary::-webkit-details-marker{display:none}
+details.precios summary::after{content:"+";font-size:1.2rem;transition:transform .3s}
+details.precios[open] summary::after{transform:rotate(45deg)}
+.tabla{width:100%;border-collapse:collapse;font-size:.88rem;margin-bottom:12px}
+.tabla td{padding:9px 0;border-bottom:1px solid rgba(63,66,41,.08);vertical-align:top;line-height:1.4}
+.tabla td:last-child{text-align:right;font-family:var(--serif);font-size:1.15rem;white-space:nowrap;padding-left:10px}
+.tabla small{display:block;opacity:.7;font-size:.78rem}
+
+/* ---------- 11. Zona divertida ---------- */
+.juego{border:1px solid rgba(184,164,126,.6);border-radius:var(--radio);padding:30px 20px;margin-top:30px;background:var(--crema)}
+.juego h3{font-size:2rem;margin-bottom:6px}
+.progreso{display:flex;gap:6px;justify-content:center;margin:18px 0 22px}
+.progreso i{width:22px;height:2px;background:var(--linea);transition:background .3s}
+.progreso i.on{background:var(--olivo)}
+.pregunta{font-family:var(--serif);font-size:1.5rem;line-height:1.25;margin-bottom:20px}
+.resp{display:grid;gap:10px;text-align:left}
+.resp button{min-height:48px;padding:12px 16px;border:1px solid var(--linea);border-radius:var(--radio);background:transparent;cursor:pointer;text-align:left;transition:all .25s}
+.resp button:hover{border-color:var(--olivo)}
+.resp button.bien{background:var(--olivo);color:var(--crema);border-color:var(--olivo)}
+.resp button.mal{border-color:#b98a6a;color:#8b5a3c;text-decoration:line-through}
+.resp button:disabled{cursor:default}
+.nivel{font-family:var(--serif);font-size:2.3rem;font-style:italic;color:var(--olivo);margin:6px 0 10px;line-height:1.1}
+.marcador{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase}
+
+/* ---------- 13. Regalo ---------- */
+.cuenta{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px 14px;border-top:1px solid var(--oro);border-bottom:1px solid var(--oro);padding:18px 0;margin:28px 0 22px}
+.cuenta small{width:100%;font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:var(--olivo)}
+.cuenta b{font-weight:400;letter-spacing:.08em;font-size:1.05rem}
+.cuenta .concepto{margin-top:10px;letter-spacing:.14em;line-height:1.7}
+.cuenta .concepto span{white-space:nowrap}
+.cuenta .concepto b{font-size:inherit;letter-spacing:inherit;color:var(--olivo-osc);font-weight:500}
+
+/* ---------- 14. FAQ ---------- */
+.faq{margin-top:34px;text-align:left;border-top:1px solid var(--linea)}
+.faq details{border-bottom:1px solid var(--linea)}
+.faq summary{list-style:none;cursor:pointer;padding:20px 34px 20px 0;font-family:var(--serif);font-size:1.4rem;line-height:1.25;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;border-right:1px solid var(--olivo);border-bottom:1px solid var(--olivo);transform:translateY(-70%) rotate(45deg);transition:transform .3s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq details p{padding:0 0 20px;margin:0}
+
+/* ---------- Contacto ---------- */
+.contacto{border:1px solid rgba(184,164,126,.6);border-radius:var(--radio);padding:28px 20px 26px;margin:34px auto 0;max-width:26rem}
+.contacto .persona+.persona{border-top:1px solid rgba(184,164,126,.6);margin-top:24px;padding-top:24px}
+.contacto .kicker{margin-bottom:6px}
+.contacto .tel{display:block;font-family:var(--serif);font-size:clamp(1.8rem,8vw,2.3rem);line-height:1.2;text-decoration:none;white-space:nowrap;margin-bottom:20px}
+.contacto .btn{flex:1 1 130px;padding:12px 14px;letter-spacing:.14em}
+
+/* ---------- 15. Cierre ---------- */
+.cierre{min-height:88vh;min-height:88svh;display:flex;align-items:flex-start;padding-top:max(12vh,64px);justify-content:center;text-align:center;color:var(--crema);
+  background:linear-gradient(180deg,rgba(30,32,18,.55) 0%,rgba(30,32,18,.2) 45%,rgba(30,32,18,.05) 65%,rgba(30,32,18,.35) 100%),url('img/cierre.jpg') 50% 75%/cover no-repeat,radial-gradient(ellipse at 50% 70%,#7a7f52,#3F4229 75%)}
+.cierre h2{font-size:clamp(3rem,13vw,5.4rem);font-style:italic}
+.monograma{font-family:var(--serif);font-size:clamp(3.2rem,12vw,4.6rem);line-height:1;letter-spacing:.04em;margin-top:22px;color:#E6D7B4}
+.monograma span{font-style:italic;font-size:.55em;margin:0 .08em;vertical-align:.18em;color:var(--crema)}
+footer{background:var(--olivo-osc);color:var(--beige);text-align:center;padding:28px 22px;font-size:.72rem;letter-spacing:.28em;text-transform:uppercase}
+
+/* ---------- Toast ---------- */
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);background:var(--olivo-osc);color:var(--crema);padding:12px 20px;border-radius:var(--radio);font-size:.88rem;opacity:0;pointer-events:none;transition:all .4s;z-index:50;max-width:calc(100% - 32px);text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@media(min-width:760px){
+  section{padding:128px 0}
+  .galeria{margin:0 0 14px;padding:0}
+  .galeria .ph{flex-basis:46%}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .reveal,.hero-in>*{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- Iconos y ramita de olivo (se reutilizan con <use>) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="hoja" d="M0 0C7 -6 17 -7.5 27 -3C17 1.5 7 2 0 0Z"/>
+  </defs>
+  <symbol id="olivo" viewBox="0 0 220 40" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+    <path d="M18 21Q110 13 202 21"/>
+    <use href="#hoja" transform="translate(38 19.6) rotate(-28)"/>
+    <use href="#hoja" transform="translate(56 18.5) rotate(26) scale(1 -1)"/>
+    <use href="#hoja" transform="translate(76 17.8) rotate(-30)"/>
+    <use href="#hoja" transform="translate(96 17.2) rotate(24) scale(1 -1)"/>
+    <use href="#hoja" transform="translate(116 17) rotate(-26)"/>
+    <use href="#hoja" transform="translate(136 17.3) rotate(28) scale(1 -1)"/>
+    <use href="#hoja" transform="translate(156 18) rotate(-24)"/>
+    <use href="#hoja" transform="translate(174 19) rotate(22) scale(1 -1)"/>
+    <use href="#hoja" transform="translate(198 20.8) rotate(-6)"/>
+    <path d="M86 17.5Q85 22 87 25"/><ellipse cx="87.5" cy="28.5" rx="2.8" ry="3.6" fill="currentColor" fill-opacity=".18"/>
+    <path d="M146 17.6Q147 23 145 26"/><ellipse cx="144.8" cy="29.6" rx="2.8" ry="3.6" fill="currentColor" fill-opacity=".18"/>
+  </symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16M6 14l6 6 6-6"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-copiar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+  <symbol id="i-iglesia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M10 4h4M6 21V11l6-5 6 5v10M3 21h18M10 21v-4a2 2 0 0 1 4 0v4"/></symbol>
+  <symbol id="i-musica" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></symbol>
+  <symbol id="i-cubiertos" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v5a2 2 0 0 0 4 0V3M7 3v18M17 21V3c-2 0-3.5 2.5-3.5 6.5S15 13 17 13"/></symbol>
+  <symbol id="i-copa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16l-8 9zM12 13v7M8 20.5h8M7 2l7 7"/><circle cx="14.2" cy="8.4" r="1.4"/></symbol>
+  <symbol id="i-sombrero" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="15.5" rx="10" ry="3.2"/><path d="M7 14.6V11a5 5 0 0 1 10 0v3.6"/><path d="M7.2 12.6c3.2.9 6.4.9 9.6 0"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.5l3 3 6-6.5"/></symbol>
+  <symbol id="i-nota" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17V5l10-2v12"/><circle cx="6.5" cy="17" r="2.5"/><circle cx="16.5" cy="15" r="2.5"/></symbol>
+  <symbol id="i-vinilo" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1"><circle cx="32" cy="32" r="30"/><circle cx="32" cy="32" r="22" opacity=".5"/><circle cx="32" cy="32" r="16" opacity=".5"/><circle cx="32" cy="32" r="8"/><circle cx="32" cy="32" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="i-tel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16.4v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 3.1 3.6 2 2 0 0 1 5.1 1.5h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L9.1 9.4a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-chat"viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3.5 20.5l1.4-4.2a8.5 8.5 0 1 1 15.6-4.7z"/></symbol>
+</svg>
+
+<!-- MENÚ ==================================================== -->
+<nav class="menu" id="menu" aria-label="Menú">
+  <a class="menu-logo" href="#inicio" aria-label="Inicio">V<span>&amp;</span>P</a>
+  <div class="menu-links">
+    <a href="#ceremonia">Lugar</a>
+    <a href="#contacto">Contacto</a>
+    <a class="cta" href="#rsvp">Confirmar<span class="sm-hide"> asistencia</span></a>
+  </div>
+</nav>
+
+<main>
+
+<!-- 1. CABECERA ============================================= -->
+<header class="hero" id="inicio">
+  <div class="hero-in">
+    <svg class="sep big"><use href="#olivo"/></svg>
+    <h1 style="text-shadow:0 2px 24px rgba(0,0,0,.25)">Verónica <span class="amp">&amp;</span> Pedro</h1>
+    <p class="nos">Nos casamos</p>
+    <p class="fecha">29 · 05 · 2027 · Jaén</p>
+  </div>
+  <a class="bajar" href="#contador" aria-label="Bajar a la cuenta atrás">Desliza<svg><use href="#i-flecha"/></svg></a>
+</header>
+
+<!-- 2. CONTADOR ============================================= -->
+<section id="contador" class="center">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Cuenta atrás</span>
+    <h2 class="titulo reveal">Ya queda <em>menos</em></h2>
+    <div class="contador reveal d1" aria-live="off">
+      <div><b data-c="d">000</b><span>días</span></div>
+      <div><b data-c="h">00</b><span>horas</span></div>
+      <div><b data-c="m">00</b><span>min</span></div>
+      <div><b data-c="s">00</b><span>seg</span></div>
+    </div>
+    <p class="frase reveal d2" id="frase-contador">…y contando. Ve calentando la garganta.</p>
+    <div class="btns reveal d3">
+      <a class="btn" id="cal-google" target="_blank" rel="noopener"><svg><use href="#i-cal"/></svg>Google Calendar</a>
+      <a class="btn" id="cal-apple" download="boda-veronica-y-pedro.ics"><svg><use href="#i-cal"/></svg>Apple / iCal</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. BIENVENIDA =========================================== -->
+<section class="bienvenida center bg-beige">
+  <div class="wrap">
+    <figure class="ph reveal" data-label="Foto: pareja"><img src="img/pareja.jpg" alt="Verónica y Pedro" loading="lazy" onerror="this.remove()"></figure>
+    <span class="kicker reveal">Bienvenidos</span>
+    <h2 class="titulo reveal">Pues sí, <em>nos casamos</em></h2>
+    <p class="lead reveal d1">Después de muchos viajes juntos, hemos decidido dar un paso más.</p>
+    <p class="lead reveal d1">Y no se nos ocurre mejor sitio que nuestra tierra, entre olivos, con la gente que más queremos. O sea, contigo.</p>
+    <p class="lead reveal d2">Aquí tienes todo lo que necesitas saber. Lo demás, el 29 de mayo.</p>
+    <p class="firma reveal d3">Vero &amp; Pedro</p>
+  </div>
+</section>
+
+<!-- 5. CEREMONIA ============================================ -->
+<section class="center" id="ceremonia">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">La ceremonia</span>
+    <h2 class="titulo reveal">Basílica de <em>San Ildefonso</em></h2>
+    <div class="lugar-fotos reveal d1">
+      <figure class="ph" data-label="Foto: basílica exterior"><img src="img/basilica-exterior.jpg" alt="Exterior de la Basílica de San Ildefonso" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="ph" data-label="Foto: basílica interior"><img src="img/basilica-interior.jpg" alt="Interior de la Basílica de San Ildefonso" loading="lazy" onerror="this.remove()"></figure>
+    </div>
+    <div class="dato reveal">
+      <span class="kicker" style="margin:0">Sábado 29 de mayo</span>
+      <span class="hora">12:00 h</span>
+      <span class="dir">Plaza de San Ildefonso, Jaén</span>
+    </div>
+    <a class="btn reveal" href="https://maps.app.goo.gl/VdK8959jbUWajjHcA" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Cómo llegar</a>
+  </div>
+</section>
+
+<!-- 6. CELEBRACIÓN ========================================== -->
+<section class="center bg-beige" id="celebracion">
+  <div class="wrap" style="max-width:64rem">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">La celebración</span>
+    <h2 class="titulo reveal">Cortijo <em>El Brujuelo</em></h2>
+    <p class="lead reveal">Al terminar la misa, directos a la finca.</p>
+    <div class="galeria reveal d1" id="galeria" tabindex="0" aria-label="Fotos del Cortijo El Brujuelo">
+      <figure class="ph" data-label="Foto: cortijo 1"><img src="img/cortijo-1.jpg" alt="Cortijo El Brujuelo entre palmeras y el estanque" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="ph" data-label="Foto: cortijo 3"><img src="img/cortijo-3.jpg" alt="Puerta de entrada del cortijo" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="ph" data-label="Foto: cortijo 4"><img src="img/cortijo-4.jpg" alt="Estanque y jardines del cortijo" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="ph" data-label="Foto: cortijo 5"><img src="img/cortijo-5.jpg" alt="Jardines iluminados al anochecer con vistas al olivar" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="ph" data-label="Foto: cortijo 6"><img src="img/cortijo-6.jpg" alt="Museo de carruajes del cortijo" loading="lazy" onerror="this.remove()"></figure>
+    </div>
+    <div class="puntos" id="puntos"></div>
+    <div class="dato reveal">
+      <span class="dir">Ctra. Torrequebradilla, km 13<br>23009 Jaén</span>
+    </div>
+    <a class="btn reveal" href="https://www.google.com/maps/search/?api=1&amp;query=Cortijo%20El%20Brujuelo%2C%20Ctra.%20Torrequebradilla%20km%2013%2C%2023009%20Ja%C3%A9n" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Cómo llegar</a>
+  </div>
+</section>
+
+<!-- 7. EL PLAN DEL DÍA ====================================== -->
+<section class="center" id="plan">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Sábado 29 de mayo</span>
+    <h2 class="titulo reveal">El plan <em>del día</em></h2>
+    <ol class="plan">
+      <li class="reveal"><span class="ico"><svg><use href="#i-iglesia"/></svg></span><div><span class="h">12:00 h</span><h3>Misa</h3></div></li>
+      <li class="reveal"><span class="ico"><svg><use href="#i-musica"/></svg></span><div><span class="h">Al llegar al cortijo</span><h3>Cóctel</h3><p>Cóctel al aire libre con música en directo.</p></div></li>
+      <li class="reveal"><span class="ico"><svg><use href="#i-cubiertos"/></svg></span><div><span class="h">A la mesa</span><h3>Banquete</h3><p>A cargo de El Rabanal (Sevilla).</p></div></li>
+      <li class="reveal"><span class="ico"><svg><use href="#i-copa"/></svg></span><div><span class="h">Hasta las 00:00</span><h3>Barra libre</h3><p>Ya os daremos más info.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 8. DRESS CODE =========================================== -->
+<section class="center bg-beige" id="dresscode">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Dress code</span>
+    <h2 class="titulo reveal">¿Qué <em>me pongo</em>?</h2>
+    <p class="lead reveal">Etiqueta: formal</p>
+    <div class="aviso reveal d1">
+      <svg><use href="#i-sombrero"/></svg>
+      <p>Opcional: si os apetece, pamela o sombrero.</p>
+    </div>
+    <span class="kicker reveal">Colores prohibidos</span>
+    <div class="colores reveal d1">
+      <div><i class="prohibido" style="background:#FFFFFF"></i>Blanco</div>
+      <div><i class="prohibido" style="background:#D8C6A2"></i>Beige</div>
+    </div>
+    <p class="small reveal">El blanco y el beige, para la novia.</p>
+  </div>
+</section>
+
+<!-- 9. PLAYLIST (destacada) ================================= -->
+<section class="playlist center" id="playlist">
+  <div class="wrap">
+    <svg class="vinilo reveal"><use href="#i-vinilo"/></svg>
+    <span class="kicker reveal">La playlist</span>
+    <h2 class="titulo reveal">Tú también <em>pinchas</em> en esta boda</h2>
+    <p class="lead reveal d1">Añade a la playlist las canciones que no pueden faltar.</p>
+
+    <div class="btns reveal" style="margin-top:34px">
+      <a class="btn solid" id="btn-spotify" href="https://open.spotify.com/playlist/2Ni7lSXQ40bj9BgelBxQvm" target="_blank" rel="noopener"><svg><use href="#i-nota"/></svg>Abrir playlist en Spotify</a>
+    </div>
+
+    <p class="sub reveal">¿Sin Spotify? Apúntala aquí</p>
+    <p class="small reveal">Nosotros la añadimos a la lista.</p>
+    <form class="form reveal" id="form-playlist" novalidate>
+      <input class="hp" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="dos">
+        <div class="campo"><label for="pl-cancion">Canción</label><input class="input" id="pl-cancion" name="cancion" required></div>
+        <div class="campo"><label for="pl-artista">Artista</label><input class="input" id="pl-artista" name="artista"></div>
+      </div>
+      <fieldset class="campo">
+        <legend>¿Para qué momento?</legend>
+        <div class="opciones">
+          <label class="opcion"><input type="radio" name="momento" value="Cóctel"><span>Cóctel</span></label>
+          <label class="opcion"><input type="radio" name="momento" value="Banquete"><span>Banquete</span></label>
+          <label class="opcion"><input type="radio" name="momento" value="Pista de baile"><span>Pista de baile</span></label>
+        </div>
+      </fieldset>
+      <div class="campo"><label for="pl-nombre">Tu nombre</label><input class="input" id="pl-nombre" name="nombre" autocomplete="name" placeholder="Opcional"></div>
+      <div class="btns"><button class="btn solid" type="submit">Añadir canción</button></div>
+    </form>
+    <div class="ok" id="ok-playlist" role="status">
+      <svg><use href="#i-check"/></svg>
+      <h3>¡Apuntada!</h3>
+      <p>La añadimos a la playlist. Ya puedes ir ensayando.</p>
+      <div class="btns" style="margin-top:18px"><button class="btn" type="button" id="otra-cancion">Añadir otra</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. ALOJAMIENTO ========================================= -->
+<section class="center bg-beige" id="alojamiento">
+  <div class="wide">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Alojamiento</span>
+    <h2 class="titulo reveal">¿Te quedas <em>a dormir</em>?</h2>
+    <p class="lead reveal">Si vienes de fuera, estos hoteles en Jaén tienen precio especial para la boda.</p>
+    <div class="hoteles">
+      <article class="hotel reveal">
+        <div class="hotel-fotos">
+          <div class="carrusel" tabindex="0" aria-label="Fotos del Hotel Europa Jaén">
+            <figure class="ph" data-label="Foto: Hotel Europa 1"><img src="img/hotel-europa-1.jpg" alt="Habitación doble del Hotel Europa Jaén" loading="lazy" onerror="this.remove()"></figure>
+            <figure class="ph" data-label="Foto: Hotel Europa 2"><img src="img/hotel-europa-2.jpg" alt="Habitación del Hotel Europa Jaén con escritorio y ventana" loading="lazy" onerror="this.remove()"></figure>
+            <figure class="ph" data-label="Foto: Hotel Europa 3"><img src="img/hotel-europa-3.jpg" alt="Cama de matrimonio del Hotel Europa Jaén" loading="lazy" onerror="this.remove()"></figure>
+          </div>
+          <div class="puntos sobre"></div>
+        </div>
+        <div class="cuerpo">
+          <h3>Hotel Europa Jaén</h3>
+          <div class="codigo"><div><small>Código</small><b>142714</b></div><button class="copiar" type="button" data-copiar="142714" aria-label="Copiar código 142714"><svg><use href="#i-copiar"/></svg></button></div>
+          <p>Al reservar, di que vienes a la boda de Vero y Pedro.</p>
+          <details class="precios">
+            <summary>Ver precios por noche</summary>
+            <table class="tabla">
+              <tr><td>Habitación doble<small>Con desayuno</small></td><td>83 €</td></tr>
+              <tr><td>Habitación doble<small>Sin desayuno</small></td><td>68 €</td></tr>
+              <tr><td>Habitación individual<small>Con desayuno</small></td><td>61 €</td></tr>
+              <tr><td>Habitación individual<small>Sin desayuno</small></td><td>69 €</td></tr>
+            </table>
+            <p class="small">Hay 15 habitaciones dobles (cama de matrimonio o dos camas, según disponibilidad) y 5 individuales.</p>
+          </details>
+          <a class="btn" href="https://www.hoteleuropajaen.es/" target="_blank" rel="noopener">Reservar</a>
+        </div>
+      </article>
+      <article class="hotel reveal d1">
+        <div class="hotel-fotos">
+          <div class="carrusel" tabindex="0" aria-label="Fotos del Hotel Condestable Iranzo">
+            <figure class="ph" data-label="Foto: Condestable 1"><img src="img/hotel-condestable-1.jpg" alt="Habitación con cama extragrande del Hotel Condestable Iranzo" loading="lazy" onerror="this.remove()"></figure>
+            <figure class="ph" data-label="Foto: Condestable 2"><img src="img/hotel-condestable-2.jpg" alt="Habitación con dos camas del Hotel Condestable Iranzo" loading="lazy" onerror="this.remove()"></figure>
+            <figure class="ph" data-label="Foto: Condestable 3"><img src="img/hotel-condestable-3.jpg" alt="Habitación del Hotel Condestable Iranzo con mural de la catedral de Jaén" loading="lazy" onerror="this.remove()"></figure>
+          </div>
+          <div class="puntos sobre"></div>
+        </div>
+        <div class="cuerpo">
+          <h3>Hotel Condestable Iranzo</h3>
+          <div class="codigo"><div><small>Código</small><b>BODA PEDRO PALACIOS</b></div><button class="copiar" type="button" data-copiar="BODA PEDRO PALACIOS" aria-label="Copiar código BODA PEDRO PALACIOS"><svg><use href="#i-copiar"/></svg></button></div>
+          <details class="precios">
+            <summary>Ver precios por noche</summary>
+            <table class="tabla">
+              <tr><td>Estándar dos camas<small>2 personas</small></td><td>83 €</td></tr>
+              <tr><td>Cama extragrande<small>2 personas</small></td><td>93 €</td></tr>
+              <tr><td>Estándar dos camas<small>Uso individual</small></td><td>73 €</td></tr>
+              <tr><td>Cama extragrande<small>Uso individual</small></td><td>83 €</td></tr>
+              <tr><td>Doble dos camas + supletoria<small>3 adultos o 2 adultos + 1 niño</small></td><td>103 €</td></tr>
+              <tr><td>Doble extragrande + supletoria<small>2 adultos + máx. 2 niños</small></td><td>113 €</td></tr>
+            </table>
+            <p class="small">Se considera niño hasta los 14 años; a partir de esa edad, adulto.<br>Desayuno buffet: 14 € por persona y día. Hasta 3 años no pagan; de 4 a 14 años, la mitad.</p>
+          </details>
+          <a class="btn" href="https://www.hotelcondestableiranzo.com/" target="_blank" rel="noopener">Reservar</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 11. ZONA DIVERTIDA ====================================== -->
+<section class="center" id="divertida">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Zona divertida</span>
+    <h2 class="titulo reveal">Ya que <em>estás aquí</em>…</h2>
+    <p class="lead reveal">Tres juegos mientras llega el día.</p>
+
+    <!-- Quiz -->
+    <div class="juego reveal" id="quiz">
+      <span class="kicker">Quiz</span>
+      <h3>¿Cuánto conoces a los novios?</h3>
+      <p class="small">Seis preguntas rápidas. ¿Cuánto conoces de verdad a Pedro y Verónica?</p>
+      <div id="quiz-cuerpo"></div>
+    </div>
+
+    <!-- Apuestas -->
+    <div class="juego reveal" id="apuestas">
+      <span class="kicker">Apuestas de la boda</span>
+      <h3>Haz tu porra</h3>
+      <p class="small">El día de la boda revelamos quién acertó.</p>
+      <form class="form" id="form-apuestas" novalidate>
+        <input class="hp" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <fieldset class="campo">
+          <legend>¿Quién llorará primero?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="llora" value="Verónica"><span>Verónica</span></label>
+            <label class="opcion"><input type="radio" name="llora" value="Pedro"><span>Pedro</span></label>
+            <label class="opcion"><input type="radio" name="llora" value="Las madres"><span>Las madres</span></label>
+            <label class="opcion"><input type="radio" name="llora" value="Los testigos"><span>Los testigos</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="campo">
+          <legend>¿Cuánto durará el discurso del novio?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="discurso" value="Menos de 3 min"><span>Menos de 3 min</span></label>
+            <label class="opcion"><input type="radio" name="discurso" value="De 3 a 10 min"><span>De 3 a 10 min</span></label>
+            <label class="opcion"><input type="radio" name="discurso" value="De 10 a 20 min"><span>De 10 a 20 min</span></label>
+            <label class="opcion"><input type="radio" name="discurso" value="Más de 20 min"><span>Más de 20 min</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="campo">
+          <legend>¿A qué hora sonará el primer pasodoble?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="pasodoble" value="Antes de las 19:00"><span>Antes de las 19:00</span></label>
+            <label class="opcion"><input type="radio" name="pasodoble" value="19:00 – 21:00"><span>19:00 – 21:00</span></label>
+            <label class="opcion"><input type="radio" name="pasodoble" value="21:00 – 23:00"><span>21:00 – 23:00</span></label>
+            <label class="opcion"><input type="radio" name="pasodoble" value="No habrá pasodoble"><span>No habrá pasodoble</span></label>
+          </div>
+        </fieldset>
+        <div class="campo"><label for="ap-nombre">Tu nombre</label><input class="input" id="ap-nombre" name="nombre" autocomplete="name" required></div>
+        <div class="btns"><button class="btn solid" type="submit">Hacer mi apuesta</button></div>
+      </form>
+      <div class="ok" id="ok-apuestas" role="status">
+        <svg><use href="#i-check"/></svg>
+        <h3>¡Apuesta hecha!</h3>
+        <p>El 29 de mayo veremos quién acierta.</p>
+      </div>
+    </div>
+
+    <!-- Consejo -->
+    <div class="juego reveal" id="consejo">
+      <span class="kicker">Para los novios</span>
+      <h3>Un consejo, por favor</h3>
+      <p class="small">De amor, de convivencia o de la vida.</p>
+      <form class="form" id="form-consejo" novalidate>
+        <input class="hp" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="campo"><label for="co-texto">Tu consejo</label><textarea class="input" id="co-texto" name="consejo" required></textarea></div>
+        <div class="campo"><label for="co-nombre">Firmado</label><input class="input" id="co-nombre" name="nombre" autocomplete="name" placeholder="Tu nombre (opcional)"></div>
+        <div class="btns"><button class="btn solid" type="submit">Enviar consejo</button></div>
+      </form>
+      <div class="ok" id="ok-consejo" role="status">
+        <svg><use href="#i-check"/></svg>
+        <h3>¡Guardado!</h3>
+        <p>Lo leeremos con mucho cariño.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. RSVP ================================================ -->
+<section class="center bg-beige" id="rsvp">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">RSVP</span>
+    <h2 class="titulo reveal">Confirma tu <em>asistencia</em></h2>
+    <p class="lead reveal">Por favor, confírmanos antes del <span class="pend">fecha límite pendiente</span>.</p>
+
+    <form class="form reveal d1" id="form-rsvp" novalidate>
+      <input class="hp" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="campo"><label for="rs-nombre">Nombre y apellidos</label><input class="input" id="rs-nombre" name="nombre" autocomplete="name" required></div>
+      <fieldset class="campo">
+        <legend>¿Vienes?</legend>
+        <div class="opciones">
+          <label class="opcion"><input type="radio" name="asiste" value="Sí" checked><span>Sí, allí estaré</span></label>
+          <label class="opcion"><input type="radio" name="asiste" value="No"><span>No podré ir</span></label>
+        </div>
+      </fieldset>
+      <div id="rs-detalles">
+        <div class="dos">
+          <div class="campo"><label for="rs-acomp">Acompañantes</label>
+            <select class="input" id="rs-acomp" name="acompanantes"><option value="0">Voy solo/a</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select>
+          </div>
+          <div class="campo"><label for="rs-acomp-nombres">Nombre(s)</label><input class="input" id="rs-acomp-nombres" name="nombres_acompanantes" placeholder="De tus acompañantes"></div>
+        </div>
+        <fieldset class="campo">
+          <legend>¿Vienen niños?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="ninos" value="No" checked><span>No</span></label>
+            <label class="opcion"><input type="radio" name="ninos" value="Sí"><span>Sí</span></label>
+          </div>
+        </fieldset>
+        <div class="campo" id="rs-edades-campo" hidden><label for="rs-edades">Edades de los niños</label><input class="input" id="rs-edades" name="edades" placeholder="Ej.: 4 y 9 años"></div>
+        <div class="campo"><label for="rs-alergias">Alergias o intolerancias</label><input class="input" id="rs-alergias" name="alergias" placeholder="Si no hay ninguna, déjalo en blanco"></div>
+        <fieldset class="campo">
+          <legend>¿Necesitas autobús?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="autobus" value="No" checked><span>No</span></label>
+            <label class="opcion"><input type="radio" name="autobus" value="Sí"><span>Sí</span></label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="campo"><label for="rs-mensaje">Un mensaje para los novios</label><textarea class="input" id="rs-mensaje" name="mensaje" placeholder="Opcional"></textarea></div>
+      <div class="btns"><button class="btn solid" type="submit">Confirmar asistencia</button></div>
+    </form>
+    <div class="ok" id="ok-rsvp" role="status">
+      <svg><use href="#i-check"/></svg>
+      <h3 id="ok-rsvp-titulo">¡Ea, ya estás dentro!</h3>
+      <p id="ok-rsvp-texto">Tienes silla, plato y un sitio reservado en la pista. Nos vemos el 29.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 13. REGALO ============================================== -->
+<section class="center" id="regalo">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Regalo</span>
+    <h2 class="titulo reveal">Lo más <em>importante</em></h2>
+    <p class="lead reveal">Vuestra presencia es nuestro mejor regalo, pero si queréis ayudarnos con la luna de miel…</p>
+    <div class="cuenta reveal d1">
+      <small>Número de cuenta</small>
+      <b id="iban">ES06 3058 0990 2727 6553 9991</b>
+      <button class="btn" type="button" id="copiar-iban"><svg><use href="#i-copiar"/></svg>Copiar</button>
+      <small class="concepto">Concepto: <b>Regalo Boda Verónica y Pedro</b> <span>+ tu nombre</span></small>
+    </div>
+    <p class="small reveal">Titulares: Verónica y Pedro. Gracias de corazón.</p>
+  </div>
+</section>
+
+<!-- 14. FAQ ================================================= -->
+<section class="center bg-beige" id="faq">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Preguntas frecuentes</span>
+    <h2 class="titulo reveal">Lo que <em>todos</em> preguntan</h2>
+    <div class="faq reveal d1">
+      <details><summary>¿Hay autobús?</summary><p>Sí. Márcalo en la confirmación y te guardamos sitio. <span class="pend">Horarios y paradas pendientes</span></p></details>
+      <details><summary>¿Pueden venir niños?</summary><p>¡Claro! Indícanos cuántos y qué edades tienen en la confirmación, para preparar su menú.</p></details>
+      <details><summary>¿Hasta qué hora dura?</summary><p>Hasta las 00:00. Ya os daremos más info.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO ================================================ -->
+<section class="center" id="contacto">
+  <div class="wrap">
+    <svg class="sep reveal"><use href="#olivo"/></svg>
+    <span class="kicker reveal">Contacto</span>
+    <h2 class="titulo reveal">¿Alguna <em>duda</em>?</h2>
+    <p class="lead reveal">Escríbenos cuando quieras, que para eso estamos.</p>
+    <div class="contacto reveal d1">
+      <div class="persona">
+        <span class="kicker">Pedro</span>
+        <a class="tel" href="tel:+34636514400">636 51 44 00</a>
+        <div class="btns">
+          <a class="btn solid" href="https://wa.me/34636514400" target="_blank" rel="noopener"><svg><use href="#i-chat"/></svg>WhatsApp</a>
+          <a class="btn" href="tel:+34636514400"><svg><use href="#i-tel"/></svg>Llamar</a>
+        </div>
+      </div>
+      <div class="persona">
+        <span class="kicker">Verónica</span>
+        <a class="tel" href="tel:+34665394241">665 39 42 41</a>
+        <div class="btns">
+          <a class="btn solid" href="https://wa.me/34665394241" target="_blank" rel="noopener"><svg><use href="#i-chat"/></svg>WhatsApp</a>
+          <a class="btn" href="tel:+34665394241"><svg><use href="#i-tel"/></svg>Llamar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 15. CIERRE ============================================== -->
+<section class="cierre">
+  <div class="wrap">
+    <svg class="sep big reveal"><use href="#olivo"/></svg>
+    <h2 class="reveal">Nos vemos en Jaén</h2>
+    <p class="monograma reveal d1" aria-label="V y P">V<span>y</span>P</p>
+  </div>
+</section>
+
+</main>
+<footer>Verónica &amp; Pedro · 29 · 05 · 2027</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* =========================================================
+   CONFIGURACIÓN — rellena aquí lo pendiente
+   ========================================================= */
+const CONFIG = {
+  boda: '2027-05-29T12:00:00+02:00',
+  // URL del Google Apps Script (ver google-apps-script.js). Vacío = se guarda solo en este navegador.
+  endpoint: 'https://script.google.com/macros/s/AKfycbz4h6HAix7z65IVWXcqfc-o2SH36_4UGGri5ito1np8JOWJop-LEaTMzx-5iYbrxsW_/exec',
+  spotify: 'https://open.spotify.com/playlist/2Ni7lSXQ40bj9BgelBxQvm',  // enlace a la playlist colaborativa
+  iban: 'ES06 3058 0990 2727 6553 9991',
+  // Quiz: 'ok' es el índice de la respuesta correcta (empezando en 0). Confirmado por los novios.
+  quiz: [
+    { p: '¿Dónde se conocieron los novios?', r: ['En la facultad', 'De fiesta en Madrid', 'De feria en Andalucía', 'En un avión'], ok: 2 },
+    { p: '¿Cómo acabó su primera cita?', r: ['Con un beso', 'Con un viaje', 'Llorando', 'Con algo más'], ok: 1 },
+    { p: '¿Quién cocina en casa?', r: ['Verónica', 'Pedro'], ok: 1 },
+    { p: '¿Cuándo se comprometieron?', r: ['Fin de año', 'En verano', 'En la romería', 'Día de Reyes'], ok: 3 },
+    { p: '¿Dónde pasan más tiempo?', r: ['En un avión', 'En casa (Madrid)', 'En un hotel', 'No lo saben ni ellos'], ok: 3 },
+    { p: '¿Quién es más intenso?', r: ['Verónica', 'Pedro', 'Todas las anteriores son correctas'], ok: 2 },
+  ],
+  niveles: [
+    'Nivel: «¿y tú de quién eres?»',
+    'Nivel: primo lejano',
+    'Nivel: compañero de cañas',
+    'Nivel: amigo de toda la vida',
+    'Nivel: familia de la buena',
+    'Nivel: testigo de honor',
+    'Nivel: alma gemela de los novios',
+  ],
+};
+
+/* ---------- Utilidades ---------- */
+const $ = (s, c = document) => c.querySelector(s);
+const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const toast = msg => { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2400); };
+const local = {
+  get(k) { try { return JSON.parse(localStorage.getItem('boda-pv-' + k)) || []; } catch { return []; } },
+  add(k, v) { try { const a = local.get(k); a.unshift(v); localStorage.setItem('boda-pv-' + k, JSON.stringify(a.slice(0, 50))); } catch {} },
+};
+async function enviar(tipo, datos) {
+  datos = { ...datos, enviado: new Date().toISOString() };
+  local.add(tipo, datos);
+  if (!CONFIG.endpoint) return;
+  try {
+    await fetch(CONFIG.endpoint, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ tipo, datos }) });
+  } catch (e) { console.warn('No se pudo enviar', e); }
+}
+async function copiar(texto) {
+  try { await navigator.clipboard.writeText(texto); }
+  catch { const t = document.createElement('textarea'); t.value = texto; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }
+  toast('¡Copiado!');
+}
+
+/* ---------- Menú ---------- */
+const menu = $('#menu');
+const pintaMenu = () => menu.classList.toggle('solid', scrollY > 40);
+addEventListener('scroll', pintaMenu, { passive: true });
+pintaMenu();
+
+/* ---------- Aparición al hacer scroll ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15, rootMargin: '0px 0px -40px 0px' });
+$$('.reveal').forEach(el => io.observe(el));
+
+/* ---------- Cuenta atrás ---------- */
+const objetivo = new Date(CONFIG.boda).getTime();
+const pad = n => String(n).padStart(2, '0');
+function tick() {
+  let d = Math.max(0, objetivo - Date.now()) / 1000;
+  const v = { d: Math.floor(d / 86400), h: Math.floor(d % 86400 / 3600), m: Math.floor(d % 3600 / 60), s: Math.floor(d % 60) };
+  $$('[data-c]').forEach(el => el.textContent = el.dataset.c === 'd' ? v.d : pad(v[el.dataset.c]));
+  if (d <= 0) { $('#frase-contador').textContent = '¡Hoy es el día! Corre, que empieza la misa.'; clearInterval(tick.i); }
+}
+tick(); tick.i = setInterval(tick, 1000);
+
+/* ---------- Calendario ---------- */
+const ev = {
+  titulo: 'Boda de Verónica & Pedro',
+  inicio: '20270529T100000Z', fin: '20270530T000000Z',
+  lugar: 'Basílica de San Ildefonso, Jaén',
+  desc: '12:00 Misa en la Basílica de San Ildefonso. Después, celebración en el Cortijo El Brujuelo (Ctra. Torrequebradilla, km 13, Jaén).',
+};
+$('#cal-google').href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(ev.titulo) + '&dates=' + ev.inicio + '/' + ev.fin + '&location=' + encodeURIComponent(ev.lugar) + '&details=' + encodeURIComponent(ev.desc) + '&ctz=Europe/Madrid';
+const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Veronica y Pedro//Boda//ES', 'CALSCALE:GREGORIAN', 'BEGIN:VEVENT',
+  'UID:boda-veronica-pedro-20270529@invitacion', 'DTSTAMP:20261006T000000Z', 'DTSTART:' + ev.inicio, 'DTEND:' + ev.fin,
+  'SUMMARY:' + ev.titulo, 'LOCATION:' + ev.lugar.replace(/,/g, '\\,'), 'DESCRIPTION:' + ev.desc.replace(/,/g, '\\,'),
+  'BEGIN:VALARM', 'TRIGGER:-P1D', 'ACTION:DISPLAY', 'DESCRIPTION:Mañana es la boda de Verónica & Pedro', 'END:VALARM',
+  'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+$('#cal-apple').href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+
+/* ---------- Galerías (cortijo y hoteles) ---------- */
+function montaGaleria(gal, puntos) {
+  const fotos = $$('.ph', gal);
+  fotos.forEach((f, i) => {
+    const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', 'Foto ' + (i + 1));
+    b.onclick = () => gal.scrollTo({ left: f.offsetLeft - (gal.clientWidth - f.clientWidth) / 2, behavior: 'smooth' });
+    puntos.appendChild(b);
+  });
+  function marcaPunto() {
+    const c = gal.scrollLeft + gal.clientWidth / 2;
+    let i = 0, min = Infinity;
+    fotos.forEach((f, j) => { const dd = Math.abs(f.offsetLeft + f.clientWidth / 2 - c); if (dd < min) { min = dd; i = j; } });
+    $$('button', puntos).forEach((b, j) => b.classList.toggle('on', j === i));
+  }
+  gal.addEventListener('scroll', () => requestAnimationFrame(marcaPunto), { passive: true });
+  marcaPunto();
+}
+montaGaleria($('#galeria'), $('#puntos'));
+$$('.hotel-fotos').forEach(h => montaGaleria($('.carrusel', h), $('.puntos', h)));
+
+/* ---------- Copiar ---------- */
+$$('[data-copiar]').forEach(b => b.onclick = () => copiar(b.dataset.copiar));
+if (CONFIG.iban) $('#iban').textContent = CONFIG.iban;
+$('#copiar-iban').onclick = () => CONFIG.iban ? copiar(CONFIG.iban.replace(/\s/g, '')) : toast('El número de cuenta aún no está disponible');
+if (CONFIG.spotify) $('#btn-spotify').href = CONFIG.spotify;
+else $('#btn-spotify').onclick = e => { e.preventDefault(); toast('La playlist de Spotify estará lista pronto'); };
+
+/* ---------- Formularios ---------- */
+function montaForm(id, tipo, alEnviar) {
+  const f = $('#form-' + id), ok = $('#ok-' + id);
+  f.addEventListener('submit', async e => {
+    e.preventDefault();
+    if (f.web && f.web.value) return; // anti-spam
+    const falta = $$('[required]', f).find(i => !i.value.trim());
+    if (falta) { falta.focus(); toast('Te falta un campo por rellenar'); return; }
+    const datos = Object.fromEntries(new FormData(f)); delete datos.web;
+    const extra = alEnviar && alEnviar(datos, f);
+    if (extra === false) return;
+    await enviar(tipo, datos);
+    f.hidden = true; ok.classList.add('show');
+    ok.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+}
+
+// Apuestas
+montaForm('apuestas', 'apuestas', d => {
+  if (!d.llora || !d.discurso || !d.pasodoble) { toast('Elige una opción en cada apuesta'); return false; }
+});
+
+// Consejo
+montaForm('consejo', 'consejos', d => { if (!d.nombre) d.nombre = 'Anónimo'; });
+
+// Playlist (para quien no entra en Spotify)
+montaForm('playlist', 'playlist', d => { if (!d.nombre) d.nombre = 'Anónimo'; });
+$('#otra-cancion').onclick = () => {
+  const f = $('#form-playlist'); f.reset(); f.hidden = false;
+  $('#ok-playlist').classList.remove('show'); $('#pl-cancion').focus();
+};
+
+// RSVP
+const detalles = $('#rs-detalles');
+$$('[name="asiste"]').forEach(r => r.onchange = () => { detalles.hidden = r.value === 'No' && r.checked; });
+$$('[name="ninos"]').forEach(r => r.onchange = () => { $('#rs-edades-campo').hidden = !(r.value === 'Sí' && r.checked); });
+montaForm('rsvp', 'rsvp', d => {
+  if (d.asiste === 'No') {
+    $('#ok-rsvp-titulo').textContent = '¡Qué pena!';
+    $('#ok-rsvp-texto').textContent = 'Te echaremos de menos. Gracias por avisarnos.';
+    ['acompanantes', 'nombres_acompanantes', 'ninos', 'edades', 'alergias', 'autobus'].forEach(k => delete d[k]);
+  } else if (d.autobus === 'Sí') {
+    $('#ok-rsvp-texto').textContent = 'Tienes silla, plato, sitio en el autobús y un hueco reservado en la pista. Nos vemos el 29.';
+  }
+});
+
+/* ---------- Quiz ---------- */
+const qz = { i: 0, aciertos: 0 };
+function pintaQuiz() {
+  const cuerpo = $('#quiz-cuerpo'), Q = CONFIG.quiz;
+  const prog = '<div class="progreso">' + Q.map((_, j) => `<i class="${j < qz.i ? 'on' : ''}"></i>`).join('') + '</div>';
+  if (qz.i >= Q.length) {
+    cuerpo.innerHTML = prog + `<p class="marcador">${qz.aciertos} de ${Q.length} aciertos</p><p class="nivel">${esc(CONFIG.niveles[qz.aciertos])}</p><div class="btns"><button class="btn" type="button" id="quiz-otra">Repetir</button></div>`;
+    $('#quiz-otra').onclick = () => { qz.i = 0; qz.aciertos = 0; pintaQuiz(); };
+    enviar('quiz', { aciertos: qz.aciertos });
+    return;
+  }
+  const q = Q[qz.i];
+  cuerpo.innerHTML = prog + `<p class="pregunta">${esc(q.p)}</p><div class="resp">${q.r.map((r, j) => `<button type="button" data-j="${j}">${esc(r)}</button>`).join('')}</div>`;
+  $$('.resp button', cuerpo).forEach(b => b.onclick = () => {
+    const j = +b.dataset.j, botones = $$('.resp button', cuerpo);
+    botones.forEach(x => x.disabled = true);
+    botones[q.ok].classList.add('bien');
+    if (j === q.ok) qz.aciertos++; else b.classList.add('mal');
+    setTimeout(() => { qz.i++; pintaQuiz(); }, 1100);
+  });
+}
+pintaQuiz();
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+🔑 Got authentication token
+
+🔍 Fetching latest deployment...
+✅ Found latest deployment
+
+📦 Deployment ID:  dpl_F8zAyczaCDazzVmSKaucEhLEgE1o
+🌐 Deployment URL: boda-pedro-y-vero-9icicw2n9-micolnavarro7-codes-projects.vercel.app
+📁 Project:        boda-pedro-y-vero
+👥 Team:           micolnavarro7-codes-projects
+
+📋 Fetching file tree from API...
+
+✅ Got file tree (1 top-level entries)
+
+📁 Output directory: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source
+
+🗑️  Clearing previous download...
+
+⬇️  Downloading files...
+   (Use --verbose to see detailed progress)
+
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\.claude\settings.local.json
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\1.PNG
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7684.PNG
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7687.PNG
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7690.PNG
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7692.PNG
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\LEEME.txt
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\basilica-exterior.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\basilica-interior.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cabecera.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cierre.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-1.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-2.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-3.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-4.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-5.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-6.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-1.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-2.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-3.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-1.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-2.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-3.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\pareja.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\1.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\2.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\3.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\TEXTOS.md
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\basilica exterior.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\basilica interior.jpg
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (1).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (2).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (3).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (1).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (2).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (3).png
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\google-apps-script.js
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\index.html
+✅ Downloaded: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\config.json
+
+🎉 All files processed successfully!
+
+📊 Running comparison...
+
+📁 Total files: 39
+   ✅ Downloaded: 39
+   ⏭️  Skipped: 0
+   ❌ Failed: 0
+💾 Total size: 30.55 MB
+
+📈 File types breakdown:
+   jpg               22 files
+   png                6 files
+   PNG                5 files
+   json               2 files
+   txt                1 files
+   md                 1 files
+   js                 1 files
+   html               1 files
+
+🌳 File structure tree:
+
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\config.json
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\.claude\settings.local.json
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\1.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\2.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\3.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\basilica exterior.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\basilica interior.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (1).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (2).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\condestable Iranzo (3).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\1.PNG
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7684.PNG
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7687.PNG
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7690.PNG
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\Cortijo El Brujuelo\IMG_7692.PNG
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (1).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (2).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\europa jaen (3).png
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\google-apps-script.js
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\basilica-exterior.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\basilica-interior.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cabecera.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cierre.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-1.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-2.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-3.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-4.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-5.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\cortijo-6.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-1.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-2.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-condestable-3.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-1.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-2.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\hotel-europa-3.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\LEEME.txt
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\img\pareja.jpg
+├── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\index.html
+└── 📄 C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\source\.vercel\output\static\TEXTOS.md
+
+✨ Download and verification complete!
+📄 Full log saved to: C:\Users\User\out\dpl_F8zAyczaCDazzVmSKaucEhLEgE1o\download-log.txt
+   (Use --verbose to see file tree and skipped files)
+
